@@ -5,7 +5,7 @@ import datetime
 
 class myDataBase:
     def __init__(self):
-        self.mydb = mysql.connector.connect(user='root', password='bd1967bd',
+        self.mydb = mysql.connector.connect(user='root', password='********',
                                       host='127.0.0.1',
                                       database='mydb')
         self.myCursor = self.mydb.cursor(buffered=True)
